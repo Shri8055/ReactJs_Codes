@@ -8,7 +8,7 @@ function App() {
     <Header1 />
     <Header2 />
     <Header3 />
-    Guys
+    And Bikes
   </div>;
 }
 export default App;
