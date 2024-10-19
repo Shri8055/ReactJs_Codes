@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+}
+nav{
+  background-color: rgb(153, 224, 251);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.container{
+  width: 70%;
+  background-color: wheat;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+input{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+input, button{
+  border: 1px solid rgba(0, 0, 0, 0.317);
+  border-radius: 5px;
+}
