@@ -1,0 +1,36 @@
+React JS makes dynamic changes in web pages consider youtube the content inside youtube changes but youtube dosent refresh all the times
+
+React JS updates DOM only that part which is modified
+
+React JS contains HTML,JS code inside 1 file, React JS, JS also has feature that extra code can be exported and where u want to use that code u should import it
+
+React JS has components that are small big depends on you, to crete them using function and after making them u should export them to main file, to use that component in main file use import with file location add use component name in < /> brackets
+if u want to add css styling to that component then make a css file
+
+useState are used to update the values, useState values are written in array [inputValue,setInputValue]=useState(); and to update the value, use setInputValue(inputValue++ or any other operation u want to do), also useState are used to get real time data
+
+useEffect are used to run the values first when web page is reloaded, useEffect has the dependencies array that is written in [] brackets, functions when that [] value is updated, if that [] is not given then it updates on every single value
+
+this hooks should only be written in component function outside declaration can caused error
+
+Routing is part of react-dom also called as react-router-dom, used to render pages without reloading page
+
+For that BrowserRouter is imported from react router dom BrowserRouter is wrapping tab
+
+to give links to each page route is used, route is self closing tab that has path of file that to render and element method is used to call the component to display
+
+usually there are more that 1 route tag to manage them we use routes tag it is a wrapping tag all route tag are written inside routes tag
+
+params used to get id that are in urls very useful in making bankend requests id is written in /:id format
+
+navigate used to navigate to page that u want to go main format is to use / before page ro render separate
+//get(): read
+//post(): create
+//put(): update
+//delete(): delete
+
+useContext is used to transfer values from main to destination this reduces the complexity in Netflix project we have created <Home/><Row/><Card/> card data is displayed through <row/> and row data is displayed through <Home/> this work is reduced by useContext
+basically import createContext in main file and write in <context.Provider><App value="Shrinivas"/></context.Provider> values are given and Context is exported
+import context in file to use, in main file createContext is written outside the function then when we import useContext is used
+
+useRef is used to select the element

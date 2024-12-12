@@ -1,0 +1,6 @@
+import React from 'react';
+import ReactDOM from 'rect-dom/client';
+const root=ReactDOM.creteRoot(document.getElementById('root'));
+root.render(
+	<App/>
+);

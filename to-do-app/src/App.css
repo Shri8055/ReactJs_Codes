@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.header{
+    background-color: skyblue;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container{
+    background-color: cornsilk;
+    width: 70%;
+    margin: auto;
+    padding: 0vmax 8vmax;
+    min-height: 90vh;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.296);
+    border-radius: 0 0 20px 20px;
+}
+.container > form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.184);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    outline: none;
+}
+.container button{
+    background-color: rgba(0, 0, 0, 0.577);
+    color: white;
+    margin: 10px 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.tasks{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: 2px dashed rgba(0, 0, 0, 0.388);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.tasks span{
+    color: rgb(95, 95, 95);
+}
+.tasks button{
+    background-color: rgb(255, 94, 0);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.tasks button:hover{
+    background-color: rgb(252, 118, 41);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
